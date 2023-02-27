@@ -1,0 +1,7 @@
+/* #region dedubg */
+.debug [class^="col-"] {
+    /* height: 100px; */
+    border: 1px dashed white;
+}
+
+/* #endregion debug */
