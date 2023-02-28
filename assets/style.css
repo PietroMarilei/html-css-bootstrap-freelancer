@@ -1,6 +1,7 @@
  :root {
      --pf-primary: #2EBC9C;
      --pf-secondary: #2C3E50;
+     --pf-light-grey: #3A546D;
  }
 
  /* #region dedubg */
@@ -11,12 +12,20 @@
 
  /* #endregion debug */
 
- #header_nav {
+ .mint_bg {
+     background-color: var(--pf-primary);
+ }
+
+ .secondary_bg {
      background-color: var(--pf-secondary);
  }
 
- .start_bootstrap {
-     background-color: var(--pf-primary);
+ .light_grey_bg {
+     background-color: var(--pf-light-grey);
+ }
+
+ #header_nav {
+     background-color: var(--pf-secondary);
  }
 
  .jumbo_img {
