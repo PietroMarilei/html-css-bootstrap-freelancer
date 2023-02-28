@@ -1,7 +1,16 @@
-/* #region dedubg */
-.debug [class*="col"] {
-    height: 100px;
-    border: 1px dashed rgb(0, 0, 0);
-}
+ :root {
+     --pf-primary: #2EBC9C;
+     --pf-secondary: #2C3E50;
+ }
 
-/* #endregion debug */
+ /* #region dedubg */
+ .debug [class*="col"] {
+     height: 100px;
+     border: 1px dashed rgb(0, 0, 0);
+ }
+
+ /* #endregion debug */
+
+ #header_nav {
+     background-color: var(--pf-secondary);
+ }
