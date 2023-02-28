@@ -68,12 +68,22 @@
                     <div class="row">
                         <div class="col-12 d-flex flex-column
                             align-items-center">
-                            <img class="w-25 pt-5" src="./assets/img/avatar.svg"
+                            <img class="pt-5" style="max-width: 300px;"
+                                src="./assets/img/avatar.svg"
                                 alt="">
                             <h1 class="text-center text-uppercase color
                                 text-light
                                 fs-1 my-3">start Bootstrap</h1>
-                            manca l'icona
+
+                            <div class="star_container d-flex
+                                justify-content-center align-items-center
+                                py-3">
+                                <div class="star_rule"></div>
+                                <i class="fa-solid fa-star mx-3 text-light"></i>
+                                <div class="star_rule"></div>
+
+                            </div>
+
                             <h3 class="text-center text-uppercase color
                                 text-light
                                 fs-5 pb-5">graphic artist - web designer -
@@ -85,7 +95,16 @@
             <!-- ---- -->
             <section class="portoflio_cards">
                 <div class="container pt-5 ">
+                    <h2 class="text-center text-uppercase">Portfolio</h2>
 
+                    <div class="star_container d-flex justify-content-center
+                        align-items-center
+                        py-3">
+                        <div class="star_rule bg-dark"></div>
+                        <i class="fa-solid fa-star mx-3 "></i>
+                        <div class="star_rule bg-dark"></div>
+
+                    </div>
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                         <div class="col">
                             <img class="img-fluid rounded-3 my-3"
@@ -117,11 +136,18 @@
             </section>
             <!-- ----- -->
             <section class="about_me mint_bg">
-                <div class="container px-lg-5">
+                <div class="container px-md-5">
                     <div class="row ">
                         <h2 class="text-center text-uppercase color
                             text-light
                             fs-1 my-3">about</h2>
+                        <div class="star_container d-flex justify-content-center
+                            align-items-center
+                            py-3">
+                            <div class="star_rule" style="width: 70px;"></div>
+                            <i class="fa-solid fa-star mx-3 text-light"></i>
+                            <div class="star_rule" style="width: 70px;"></div>
+                        </div>
                         <div class="col-12 col-md-6">
                             <p class="color text-light fw-semibold">Lorem ipsum
                                 dolor sit amet
@@ -151,26 +177,54 @@
             </section>
             <!-- ------ -->
             <section class="contact_me">
-                <div class="container px-lg-5">
+                <div class="container px-md-5">
                     <div class="row ">
                         <h2 class="text-center text-uppercase color fs-1 my-3
                             fw-semibold">Contact Me</h2>
+
+                        <div class="star_container d-flex justify-content-center
+                            align-items-center
+                            py-3">
+                            <div class="star_rule bg-dark" style="width: 70px;"></div>
+                            <i class="fa-solid fa-star mx-3 "></i>
+                            <div class="star_rule bg-dark" style="width: 70px;"></div>
+                        </div>
                         <div class="col-12">
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1"
-                                    class="form-label">Email address</label>
-                                <input type="email" class="form-control border
-                                    border-bottom-3"
+                                    class="form-label fw-semibold">Name</label>
+                                <input type="email" class="form-control border-0
+                                    rounded-0
+                                    border-bottom border-1 border-dark"
                                     id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
+                                    placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1"
+                                    class="form-label fw-semibold">Email address</label>
+                                <input type="email" class="form-control border-0
+                                    rounded-0
+                                    border-bottom border-1 border-dark"
+                                    id="exampleFormControlInput1"
+                                    placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1"
+                                    class="form-label fw-semibold">Phone Number</label>
+                                <input type="email" class="form-control border-0
+                                    rounded-0
+                                    border-bottom border-1 border-dark"
+                                    id="exampleFormControlInput1"
+                                    placeholder="">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1"
-                                    class="form-label">Example textarea</label>
-                                <textarea class="form-control rounded-0
-                                    border-bottom"
+                                    class="form-label fw-semibold">Message</label>
+                                <textarea class="form-control border-0 rounded-0
+                                    border-bottom border-1 border-dark"
                                     id="exampleFormControlTextarea1" rows="3"></textarea>
-                                <!-- -------------------------------------------qua non va il border -->
+                                <button type="submit" class="btn mint_bg
+                                    text-light mt-3">Send</button>
                             </div>
                         </div>
                     </div>
@@ -181,8 +235,8 @@
 
         <footer class=" light_grey_bg">
             <div class="container ">
-                <div class="row ">
-                    <div class="col-12 p-0 ">
+                <div class="row py-4">
+                    <div class="col-12 ">
                         <div class="row justify-content-between gx-0 color
                             text-light">
                             <div class="col-12 col-md-4 text-center color
@@ -206,7 +260,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 secondary_bg"></div>
+
+                </div>
+            </div>
+            <div class="container-fluid secondary_bg">
+                <div class="row">
+                    <div class="col text-center text-light d-flex
+                        justify-content-center align-items-center">
+                        <p class="fs-6 m-0 py-2">Copyright your website 2013</p>
+                    </div>
                 </div>
             </div>
         </footer>
