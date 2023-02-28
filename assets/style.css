@@ -14,3 +14,11 @@
  #header_nav {
      background-color: var(--pf-secondary);
  }
+
+ .start_bootstrap {
+     background-color: var(--pf-primary);
+ }
+
+ .jumbo_img {
+     width: 30%;
+ }
