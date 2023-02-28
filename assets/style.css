@@ -31,3 +31,14 @@
  .jumbo_img {
      width: 30%;
  }
+
+ .star_rule {
+     width: 100px;
+     height: 3px;
+     background-color: white;
+     border-radius: 40px;
+ }
+
+ .mint_text {
+     color: var(--pf-primary);
+ }
